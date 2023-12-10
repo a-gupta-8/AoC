@@ -1,5 +1,4 @@
 // import filestream(fs) and read text while splitting by new line
-const fs = require("node:fs");
 const lines = fs.readFileSync("./input.txt", "utf-8").trim().split("\n");
 
 // list of possible numbers
